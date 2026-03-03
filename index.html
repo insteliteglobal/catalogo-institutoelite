@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cursos - Instituto Técnico Elite</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+
+body{
+font-family:'Segoe UI', Arial, sans-serif;
+background:#f4f6fa;
+color:#333;
+}
+
+.header{
+background:#1a2a4f;
+color:white;
+text-align:center;
+padding:50px 20px;
+}
+
+.header h1{
+font-size:34px;
+margin-bottom:10px;
+}
+
+.header p{
+font-size:15px;
+opacity:0.9;
+}
+
+.catalogo{
+max-width:1200px;
+margin:auto;
+padding:60px 20px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:14px;
+box-shadow:0 8px 25px rgba(0,0,0,0.08);
+display:flex;
+flex-direction:column;
+transition:0.3s ease;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+color:#1a2a4f;
+font-size:18px;
+margin-bottom:8px;
+}
+
+.horas{
+color:#2f4fa2;
+font-weight:600;
+font-size:14px;
+margin-bottom:10px;
+}
+
+.card p{
+font-size:14px;
+margin-bottom:15px;
+flex-grow:1;
+}
+
+.precio{
+font-weight:bold;
+color:#1a2a4f;
+margin-bottom:15px;
+}
+
+.botones{
+display:flex;
+gap:10px;
+}
+
+.btn{
+flex:1;
+padding:10px;
+border-radius:6px;
+text-align:center;
+text-decoration:none;
+font-size:14px;
+transition:0.3s;
+}
+
+.info{
+background:#e4e9f8;
+color:#1a2a4f;
+}
+
+.inscribirse{
+background:#1a2a4f;
+color:white;
+}
+
+.info:hover{
+background:#d3dbf5;
+}
+
+.inscribirse:hover{
+background:#2f4fa2;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#1a2a4f;
+color:white;
+margin-top:40px;
+font-size:14px;
+}
+
+@media(max-width:768px){
+.botones{
+flex-direction:column;
+}
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+<h1>Catálogo de Cursos</h1>
+<p>Instituto Técnico Elite - Educación para el Trabajo y el Desarrollo Humano</p>
+</div>
+
+<div class="catalogo">
+
+<div class="card">
+<h3>Bioseguridad</h3>
+<div class="horas">40 horas</div>
+<p>Aplicación de normas y protocolos de bioseguridad en entornos laborales y del sector salud.</p>
+<div class="precio">$100.000</div>
+<div class="botones">
+<a href="#" class="btn info">Más información</a>
+<a href="https://INSTITUTOELITE.q10.com/Preinscripcion" class="btn inscribirse">Inscribirse</a>
+</div>
+</div>
+
+<div class="card">
+<h3>Primeros Auxilios Psicológicos</h3>
+<div class="horas">40 horas</div>
+<p>Herramientas prácticas para la atención inicial en situaciones de crisis emocional.</p>
+<div class="precio">$100.000</div>
+<div class="botones">
+<a href="#" class="btn info">Más información</a>
+<a href="https://INSTITUTOELITE.q10.com/Preinscripcion" class="btn inscribirse">Inscribirse</a>
+</div>
+</div>
+
+<div class="card">
+<h3>Promoción y Mantenimiento de la Salud</h3>
+<div class="horas">40 horas</div>
+<p>Fortalece competencias para la promoción de hábitos saludables y prevención de enfermedades.</p>
+<div class="precio">$100.000</div>
+<div class="botones">
+<a href="#" class="btn info">Más información</a>
+<a href="https://INSTITUTOELITE.q10.com/Preinscripcion" class="btn inscribirse">Inscribirse</a>
+</div>
+</div>
+
+<div class="card">
+<h3>Salud Mental</h3>
+<div class="horas">40 horas</div>
+<p>Promoción del bienestar emocional y prevención de riesgos psicosociales.</p>
+<div class="precio">$100.000</div>
+<div class="botones">
+<a href="#" class="btn info">Más información</a>
+<a href="https://INSTITUTOELITE.q10.com/Preinscripcion" class="btn inscribirse">Inscribirse</a>
+</div>
+</div>
+
+<div class="card">
+<h3>Fundamentos del Derecho Administrativo</h3>
+<div class="horas">80 horas</div>
+<p>Principios básicos que regulan la función pública y la administración del Estado.</p>
+<div class="precio">$100.000</div>
+<div class="botones">
+<a href="#" class="btn info">Más información</a>
+<a href="https://INSTITUTOELITE.q10.com/Preinscripcion" class="btn inscribirse">Inscribirse</a>
+</div>
+</div>
+
+<div class="card">
+<h3>Fundamentos del Derecho Laboral y Seguridad Social</h3>
+<div class="horas">80 horas</div>
+<p>Conceptos esenciales del derecho laboral colombiano y el sistema de seguridad social.</p>
+<div class="precio">$100.000</div>
+<div class="botones">
+<a href="#" class="btn info">Más información</a>
+<a href="https://INSTITUTOELITE.q10.com/Preinscripcion" class="btn inscribirse">Inscribirse</a>
+</div>
+</div>
+
+</div>
+
+<footer>
+© 2026 Instituto Técnico Elite - Todos los derechos reservados
+</footer>
+
+</body>
+</html>
